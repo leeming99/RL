@@ -56,6 +56,13 @@ Mean reward over past 100 episode of -169.5 after 1000 episodes
 Mean reward over past 100 episode of -174.8 after 1200 episodes. Notice the lower variance compared to DDPG above.
 <img src="TD3/td3_pendulum.png" width="800"/>
 
+
+#### SAC
+**Implementation inspired by [cleanrl](https://github.com/vwxyzjn/cleanrl)** 
+
+Mean reward over past 100 episode of -151.9 after 200 episodes.
+<img src="SAC/sac_pendulum.png" width="800"/>
+
 ## Commands to Run Scripts
 For all non-MPI enabled / algorithms that do not require parallel workers, run the scripts with <br>
 ``` python3 <filename>```
