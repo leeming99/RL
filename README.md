@@ -15,7 +15,7 @@ Tabular methods: <br>
 5. Watkins Q-learning [[code](Model-free_Tabular_methods/Watkins_QLearning.py)]
 
 Deep RL:<br>
-Discrete: <br>
+Discrete Action Space: <br>
 1. REINFORCE [[code](vanilla_policy_gradient/REINFORCE.py) | [paper](https://papers.nips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf)]
 2. DQN [[code](DQN/vanilla_w_ER_FixedQ/cartpole/dqn_er_fixedq.py) | [paper](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)]
 3. Dueling Double DQN [[code](DQN/Dueling-Double_w_ER_FixedQ/cartpole/ddqn.py) | [Double DQN paper](https://arxiv.org/pdf/1509.06461.pdf) | [Dueling DQN paper](https://arxiv.org/pdf/1511.06581.pdf)]
@@ -24,8 +24,11 @@ Discrete: <br>
 6. PPO [[code](PPO/ppo.py) | [paper](https://arxiv.org/pdf/1707.06347.pdf)]
 7. PPG (Work in progress) [[code](PPG/ppg.py) | [paper](https://arxiv.org/pdf/2009.04416.pdf)]
 
-Continuous: <br>
+Continuous Action Space: <br>
 1. DDPG [[code](DDPG/ddpg.py) | [paper](https://arxiv.org/pdf/1509.02971.pdf)]
+2. TD3 [[code](TD3/td3.py) | [paper](https://arxiv.org/pdf/1802.09477.pdf)]
+3. SAC [[code](SAC/sac.py) | [paper](https://arxiv.org/pdf/1801.01290.pdf)]
+
 ## Implementation Results
 ### Discrete
 These algorithms ran on OpenAI Gym's [Cartpole environment](https://gym.openai.com/envs/CartPole-v0/)
